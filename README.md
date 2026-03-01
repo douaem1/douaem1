@@ -639,7 +639,7 @@ Computer Engineering student at **ENSA Tétouan**, passionate about designing sc
 ## 📊 GitHub Statistics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?douaem1=douaem1&show_icons=true&theme=dark&bg_color=0d1117&border_color=c8f05a&title_color=c8f05a&icon_color=5af0c8&text_color=e8e8f0" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?douaem1=YOUR_douaem1&show_icons=true&theme=dark&bg_color=0d1117&border_color=c8f05a&title_color=c8f05a&icon_color=5af0c8&text_color=e8e8f0" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?douaem1=YOUR_douaem1&layout=compact&theme=dark&bg_color=0d1117&border_color=c8f05a&title_color=c8f05a&text_color=e8e8f0" height="165"/>
 </div>
 
