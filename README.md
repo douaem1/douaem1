@@ -4,7 +4,7 @@
 
 ### Computer Engineering Student · Full-Stack Developer · ENSA Tétouan
 
-![](https://img.shields.io/badge/Available-PFA%202025-c8f05a?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/Available-PFA%202026-c8f05a?style=flat-square&labelColor=0a0a0f)
 ![](https://img.shields.io/badge/Location-Tétouan%2C%20Morocco-5af0c8?style=flat-square&labelColor=0a0a0f)
 
 </div>
