@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <style>
+      .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .pdf{animation:fade 6s ease-in-out infinite}
+      @keyframes fade{0%,35%{opacity:1;transform:translate(0,0) rotate(0)}55%,85%{opacity:.35;transform:translate(0,10px) rotate(-6deg)}100%{opacity:1;transform:translate(0,0) rotate(0)}}
+      .pdf{transform-box:fill-box;transform-origin:center}
+      .stamp{opacity:0;transform-box:fill-box;transform-origin:center;animation:stamp 6s ease-in-out infinite}
+      @keyframes stamp{0%,22%{opacity:0;transform:scale(2.4) rotate(-14deg)}30%,85%{opacity:1;transform:scale(1) rotate(-14deg)}95%,100%{opacity:0;transform:scale(1) rotate(-14deg)}}
+      .arrow{stroke-dasharray:10 10;animation:dash 1s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-20}}
+      .room{transform-box:fill-box;transform-origin:center;animation:rise 6s ease-in-out infinite}
+      @keyframes rise{0%,40%{transform:scale(.92)}55%,90%{transform:scale(1.04)}100%{transform:scale(.92)}}
+      .glow{animation:glow 6s ease-in-out infinite}
+      @keyframes glow{0%,40%{opacity:.15}55%,90%{opacity:.9}100%{opacity:.15}}
+      .eyes{animation:blink 4s steps(1) infinite}
+      @keyframes blink{0%,92%{opacity:1}93%,97%{opacity:0}}
+      .cta{animation:pulse 1.6s ease-in-out infinite}
+      @keyframes pulse{50%{opacity:.45}}
+    </style>
+  </defs>
+  <rect width="1000" height="260" rx="20" fill="#FFF8FA" stroke="#E6D7DB" stroke-width="2"/>
+
+  <!-- resume.pdf -->
+  <g class="pdf">
+    <path d="M150 44 h92 l34 34 v122 a8 8 0 0 1 -8 8 h-118 a8 8 0 0 1 -8 -8 v-148 a8 8 0 0 1 8 -8 z" fill="#fff" stroke="#BFC3C8" stroke-width="3"/>
+    <path d="M242 44 v34 h34" fill="#F2F3F5" stroke="#BFC3C8" stroke-width="3"/>
+    <g fill="#D7DADF"><rect x="162" y="96" width="96" height="8" rx="4"/><rect x="162" y="114" width="80" height="8" rx="4"/><rect x="162" y="132" width="90" height="8" rx="4"/><rect x="162" y="150" width="60" height="8" rx="4"/><rect x="162" y="168" width="84" height="8" rx="4"/></g>
+    <text x="205" y="234" text-anchor="middle" class="mono" font-size="17" fill="#5F6368">resume.pdf</text>
+  </g>
+  <g class="stamp">
+    <rect x="132" y="110" width="160" height="40" rx="6" fill="none" stroke="#D93A3A" stroke-width="4"/>
+    <text x="212" y="138" text-anchor="middle" class="sans" font-size="20" font-weight="800" fill="#D93A3A" letter-spacing="2">DEPRECATED</text>
+  </g>
+
+  <!-- arrow -->
+  <line x1="330" y1="128" x2="610" y2="128" stroke="#E0407E" stroke-width="4" class="arrow"/>
+  <path d="M606 116 l18 12 l-18 12 z" fill="#E0407E"/>
+  <text x="470" y="108" text-anchor="middle" class="mono" font-size="15" fill="#8C1D40">$ migrate --to v3d</text>
+
+  <!-- resume.3d : une petite pièce isométrique -->
+  <circle cx="770" cy="122" r="96" fill="#FFD1E3" class="glow"/>
+  <g class="room">
+    <path d="M700 92 L770 60 L840 92 L770 124 Z" fill="#FCEFF3" stroke="#8C1D40" stroke-width="3"/>
+    <path d="M700 92 L770 124 L770 196 L700 164 Z" fill="#fff" stroke="#8C1D40" stroke-width="3"/>
+    <path d="M840 92 L770 124 L770 196 L840 164 Z" fill="#FFE1EE" stroke="#8C1D40" stroke-width="3"/>
+    <!-- porte -->
+    <path d="M790 186 L790 140 L816 128 L816 174 Z" fill="#8C1D40"/>
+    <g class="eyes"><circle cx="799" cy="152" r="2.6" fill="#E7C15C"/><circle cx="807" cy="148" r="2.6" fill="#E7C15C"/></g>
+    <!-- fenêtre -->
+    <path d="M716 120 L748 135 L748 160 L716 145 Z" fill="#DCE5FF" stroke="#8C1D40" stroke-width="2"/>
+  </g>
+  <text x="770" y="234" text-anchor="middle" class="mono" font-size="17" font-weight="700" fill="#8C1D40">resume.3d</text>
+  <text x="900" y="200" text-anchor="middle" class="sans cta" font-size="14" font-weight="700" fill="#E0407E">click ↓</text>
+</svg>
