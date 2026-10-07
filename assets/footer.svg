@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+  <defs>
+    <style>
+      .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .z{opacity:0;animation:z 3s ease-in infinite}
+      .z2{animation-delay:1s}.z3{animation-delay:2s}
+      @keyframes z{0%{opacity:0;transform:translate(0,0)}30%{opacity:1}100%{opacity:0;transform:translate(20px,-26px)}}
+      .breathe{transform-origin:500px 112px;animation:br 2.6s ease-in-out infinite}
+      @keyframes br{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.06)}}
+    </style>
+  </defs>
+  <rect width="1000" height="150" rx="18" fill="#FFF6F9" stroke="#E6D7DB" stroke-width="2"/>
+  <g class="breathe">
+    <ellipse cx="500" cy="112" rx="58" ry="22" fill="#B8A898"/>
+    <path d="M462 108 q10 -12 22 -4 M490 100 q10 -10 22 -2" stroke="#7A6A5C" stroke-width="3" fill="none"/>
+    <path d="M556 116 C 580 120 586 100 570 96" fill="none" stroke="#8B7A6B" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="452" cy="104" r="20" fill="#C4B5A5"/>
+    <path d="M436 94 l4 -18 l10 12 z M454 88 l12 -12 l2 18 z" fill="#C4B5A5"/>
+    <ellipse cx="452" cy="74" rx="13" ry="4" fill="none" stroke="#E7C15C" stroke-width="2.5"/>
+    <path d="M440 104 q4 3 8 0 M455 104 q4 3 8 0" stroke="#2E3A1E" stroke-width="2" fill="none"/>
+  </g>
+  <g class="sans" font-weight="700" fill="#E0407E">
+    <text class="z" x="472" y="70" font-size="16">z</text>
+    <text class="z z2" x="482" y="62" font-size="20">z</text>
+    <text class="z z3" x="494" y="52" font-size="24">Z</text>
+  </g>
+  <text x="40" y="66" class="mono" font-size="14" fill="#5F6368">// L3arbi is asleep.</text>
+  <text x="40" y="90" class="mono" font-size="14" fill="#5F6368">// last words: <tspan fill="#8C1D40">"Meow."</tspan></text>
+  <text x="40" y="114" class="mono" font-size="14" fill="#5F6368">// translation: <tspan fill="#8C1D40">send that email.</tspan></text>
+  <text x="960" y="90" text-anchor="end" class="sans" font-size="15" fill="#1F2328">douae.moeniss@gmail.com</text>
+  <text x="960" y="114" text-anchor="end" class="sans" font-size="13" fill="#5F6368">douae-moeniss.vercel.app</text>
+</svg>
