@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290">
+<defs><style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px;white-space:pre}.l{opacity:0;animation:in .35s ease forwards}@keyframes in{to{opacity:1}}.c{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style></defs>
+<rect width="1000" height="290" rx="16" fill="#FFFFFF" stroke="#E6D7DB" stroke-width="2"/>
+<rect width="1000" height="40" rx="16" fill="#FCEFF3"/><rect y="24" width="1000" height="16" fill="#FCEFF3"/>
+<circle cx="26" cy="20" r="7" fill="#FF6159"/><circle cx="48" cy="20" r="7" fill="#FFBD2E"/><circle cx="70" cy="20" r="7" fill="#28C941"/>
+<text x="500" y="25" text-anchor="middle" class="m" font-size="14" fill="#5F6368">douae@douaeos: ~</text>
+<text x="28" y="72" class="m l" style="animation-delay:0.30s" fill="#8C1D40" font-weight="700">$ whoami</text>
+<text x="28" y="102" class="m l" style="animation-delay:1.20s" fill="#1F2328">douae · AI automation &amp; DevOps engineer (in training)</text>
+<text x="28" y="132" class="m l" style="animation-delay:1.70s" fill="#8C1D40" font-weight="700">$ cat experience.log</text>
+<text x="28" y="162" class="m l" style="animation-delay:2.60s" fill="#1F2328">2026  Quantumize  → WhatsApp AI agent · LLM evals · cost cuts</text>
+<text x="28" y="192" class="m l" style="animation-delay:3.10s" fill="#1F2328">2025  NTT Data    → LLM training platform · 300+ employees</text>
+<text x="28" y="222" class="m l" style="animation-delay:3.60s" fill="#8C1D40" font-weight="700">$ ./hire.sh --start 2027-01 --duration 6mo</text>
+<text x="28" y="252" class="m l" style="animation-delay:4.50s" fill="#E0407E">✔ ready. waiting for your email…</text>
+<rect class="c" x="28" y="266" width="10" height="20" fill="#E0407E"/>
+</svg>
